@@ -1,7 +1,7 @@
 const WordDeck = require("./worddeck");
 
 const ROUND_SECONDS = 180;
-const INK_MAX = 150;
+const INK_MAX = 300;
 const INK_COST_PER_UNIT = 12;
 
 function createDrawSession(io, deck = new WordDeck()) {
