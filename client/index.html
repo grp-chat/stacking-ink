@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>stacking-ink</title>
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <button id="homeBtn" type="button" class="brand-btn">
+      <span class="brand-dot"></span>
+      <span>stacking-ink</span>
+    </button>
+    <div id="activeViewLabel" class="view-label">Main Menu</div>
+  </header>
+
+  <main id="appContainer" class="app-container"></main>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/draw-panel.js"></script>
+  <script src="./js/dashboard.js"></script>
+</body>
+</html>
